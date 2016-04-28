@@ -1,0 +1,2 @@
+# NSObjectToDictionaryExample
+转化NSObject对象为NSDictionary对象
