@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "XXMessage.h"
 #import "NSObject+NSDictionary.h"
+#import "NSDictionary+NSObject.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,10 @@
     NSDictionary *dict = [msg toDictionary];
     
     NSLog(@"XXMessage ==> NSDictionary:%@", dict);
+    
+    XXMessage *msg1 = [dict generateObjectWith:[XXMessage class]];
+    
+    NSLog(@"NSDictionary ==> XXMessage:%@", msg1);
 }
 
 - (void)didReceiveMemoryWarning {

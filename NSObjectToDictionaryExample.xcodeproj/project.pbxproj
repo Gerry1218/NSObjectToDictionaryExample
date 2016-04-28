@@ -15,6 +15,7 @@
 		CBE924D91CD20D2E001E3572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE924D71CD20D2E001E3572 /* LaunchScreen.storyboard */; };
 		CBE924E31CD20D5C001E3572 /* NSObject+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE924E21CD20D5C001E3572 /* NSObject+NSDictionary.m */; };
 		CBE924E71CD20D61001E3572 /* XXMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE924E61CD20D61001E3572 /* XXMessage.m */; };
+		CBE924EA1CD213B3001E3572 /* NSDictionary+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE924E91CD213B3001E3572 /* NSDictionary+NSObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		CBE924E21CD20D5C001E3572 /* NSObject+NSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSDictionary.m"; sourceTree = "<group>"; };
 		CBE924E51CD20D61001E3572 /* XXMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMessage.h; sourceTree = "<group>"; };
 		CBE924E61CD20D61001E3572 /* XXMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMessage.m; sourceTree = "<group>"; };
+		CBE924E81CD213B3001E3572 /* NSDictionary+NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSObject.h"; sourceTree = "<group>"; };
+		CBE924E91CD213B3001E3572 /* NSDictionary+NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 			children = (
 				CBE924E11CD20D5C001E3572 /* NSObject+NSDictionary.h */,
 				CBE924E21CD20D5C001E3572 /* NSObject+NSDictionary.m */,
+				CBE924E81CD213B3001E3572 /* NSDictionary+NSObject.h */,
+				CBE924E91CD213B3001E3572 /* NSDictionary+NSObject.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			files = (
 				CBE924E31CD20D5C001E3572 /* NSObject+NSDictionary.m in Sources */,
 				CBE924D11CD20D2E001E3572 /* ViewController.m in Sources */,
+				CBE924EA1CD213B3001E3572 /* NSDictionary+NSObject.m in Sources */,
 				CBE924CE1CD20D2E001E3572 /* AppDelegate.m in Sources */,
 				CBE924E71CD20D61001E3572 /* XXMessage.m in Sources */,
 				CBE924CB1CD20D2E001E3572 /* main.m in Sources */,
@@ -331,6 +337,7 @@
 				CBE924DF1CD20D2E001E3572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
