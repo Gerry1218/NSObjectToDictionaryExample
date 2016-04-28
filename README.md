@@ -1,2 +1,3 @@
 # NSObjectToDictionaryExample
-转化NSObject对象为NSDictionary对象
+NSObject、NSDictionary互转
+NSObject <===> NSDictionary
